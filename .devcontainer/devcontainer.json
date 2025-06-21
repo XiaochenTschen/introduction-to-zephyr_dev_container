@@ -12,8 +12,8 @@
     }
   },
   "forwardPorts": [],
-  "workspaceMount": "source=zephyr-dev-volume,target=/project,type=volume",
-  "workspaceFolder": "/project/introduction-to-zephyr_dev_container/workspace",
+  "workspaceMount": "source=zephyr-dev-volume,target=/workspace,type=volume",
+  "workspaceFolder": "/workspace/introduction-to-zephyr_dev_container/workspace",
   
   // "postStartCommand": "code --file-uri /zephyr.code-workspace", // Does not work
   "runArgs": [
