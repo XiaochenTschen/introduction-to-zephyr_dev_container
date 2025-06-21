@@ -1,9 +1,6 @@
 {
   "name": "Zephyr Development Environment for Espressif",
-  "build": {
-    "dockerfile": "../Dockerfile.espressif",
-    "context": ".."
-  },
+  "image": "zephyr-dev:latest",
   "customizations": {
     "vscode": {
       "extensions": [
