@@ -1,6 +1,6 @@
 {
   "name": "Zephyr Development Environment for Espressif",
-  "image": "zephyr-dev:latest",
+  "image": "env-zephyr-espressif:latest",
   "customizations": {
     "vscode": {
       "extensions": [
