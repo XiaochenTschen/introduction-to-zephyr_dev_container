@@ -12,7 +12,7 @@
     }
   },
   "forwardPorts": [],
-  "workspaceMount": "source=${localWorkspaceFolder}/workspace,target=/workspace,type=bind,consistency=cached",
+  "workspaceMount": "source=zephyr-dev-volume,target=/workspace,type=volume",
   "workspaceFolder": "/workspace",
   // "postStartCommand": "code --file-uri /zephyr.code-workspace", // Does not work
   "runArgs": [
